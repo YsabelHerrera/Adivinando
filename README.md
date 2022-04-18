@@ -2,7 +2,7 @@
 
 ### Lo hice con Angular ya que es el único Framework que sé manejar de manera básica.
 
-## Este programa adivina tu 
+## Este programa adivina tu número
 
     Lo hace a través de una comprobación matemática sencilla, lo que lo hace más eficiente.
 
