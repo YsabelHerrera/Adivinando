@@ -1,0 +1,23 @@
+
+
+
+    <div class="col-lg-4">
+
+        <div class="mb-3">
+            <form [formGroup]="ejercicioForm">
+
+                <input type="number" 
+                       class="form-control" 
+                       onkeypress="return event.charCode != 45 && event.charCode != 43" 
+                       placeholder="Introduce un número"
+                       formControlName="enteredNumber">
+                <div *ngIf="error" class="alert alert-danger" role="alert">
+                        Recuerda que el número debe estar comprendido entre 1 y 10000000000.
+                      </div>
+                <button [disabled]="ejercicioForm.invalid" class="mt-4 btn btn-outline-secondary" (click)="onSubmit()">Enviar</button>
+                
+            </form>
+        </div>
+    </div>
+
+
