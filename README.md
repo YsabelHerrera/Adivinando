@@ -1,6 +1,6 @@
 # Prueba técnica para la Empresa Postal 3
 
-### Lo hice con Angular ya que es el único Framework que sé manejar de manera básica.
+### Realizado con Angular.
 
 ## Este programa adivina tu número
 
